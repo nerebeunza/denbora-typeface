@@ -123,7 +123,7 @@ export default function Home(props) {
         <p style={{ fontSize: 20, columnCount: 4, columnGap: 24, marginBottom: 48}}>{texts.article}</p>
       </div>
 
-      <Reddit/>
+      {/* <Reddit/> */}
 
       <div className={`gif ${container.default} ${container["padding-big"]}`}>
         <Image src={`/${GifURL}`} width={100} height={100} />
